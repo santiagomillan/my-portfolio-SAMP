@@ -506,6 +506,7 @@ img {
 .skills-persentage{
     height: 5px;
     border-radius: .25rem;
+    display: none;
 }
 
 .skills-bar{
@@ -515,9 +516,14 @@ img {
 .skills-persentage{
     display: block;
     background-color: var(--first-color);
+    display: none;
 }
 
-.skills-html{
+.skills-number{
+    display: none;
+}
+
+/* .skills-html{
     width: 95%;
 } 
 
@@ -531,7 +537,7 @@ img {
 
 .skills-ux{
     width: 85%;
-} 
+}  */
 
 .skills-close .skills-list{
     height:0;
