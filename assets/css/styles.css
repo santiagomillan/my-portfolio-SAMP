@@ -304,7 +304,7 @@ img {
 }
 
 .home-blob-img{
-    width: 170px;
+    width: 250px;
 }
 
 .home-data{
@@ -630,6 +630,9 @@ img {
 .services-container{
     gap: 1.5rem;
     grid-template-columns: repeat(2 ,1fr);
+
+
+    display: none;
 }
 
 .services-content{
@@ -656,6 +659,8 @@ img {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
+
+    
 }
 
 .services-button{
