@@ -411,6 +411,7 @@ img {
     color: var(--first-color-alt);
 }
 
+
 /*==================== ABOUT ====================*/
 
 .about-img{
@@ -741,7 +742,11 @@ img {
 }
 
 .portfolio-img{
-    width: 265px;
+    /* width: 265px;
+    height: 265px;
+    Overflow: hidden; */
+    height: 240px;
+	object-fit : cover;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -791,36 +796,7 @@ img {
     outline: none;
 }
 
-/*==================== PROJECT IN MIND ====================*/
-.project{
-    text-align: center;
-}
 
-.project-bg{
-    background-color: var(--first-color-second);
-    padding-top: 3rem;
-}
-
-.project-title{
-    font-size:var(--h2-font-size);
-    margin-bottom: var(--mb-0-75);
-}
-
-.project-description{
-    margin-bottom: var(--mb-1-5);
-}
-
-.project-title,
-.project-description{
-    color: #fff;
-}
-
-.project-img{
-    width: 232px;
-    justify-self: center;
-}
-
-/*==================== TESTIMONIAL ====================*/
 
 /*==================== CONTACT ME ====================*/
 .contact-container{
@@ -915,7 +891,7 @@ img {
 .footer-copy{
     font-size:var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #fff;
     margin-top: var(--mb-3);
 }
 
